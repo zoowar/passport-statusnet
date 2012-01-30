@@ -1,0 +1,16 @@
+{
+  "name": "passport-statusnet",
+  "version": "0.1.0",
+  "description": "StatusNet authentication strategy for Passport.",
+  "author": "ZooWar",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zoowar/passport-statusnet.git"
+  },
+  "main": "./lib/passport-identica",
+  "dependencies": {
+    "passport-oauth": ">= 0.1.0"
+  },
+  "engines": { "node": ">= 0.4.0" },
+  "keywords": ["passport", "statusnet", "auth", "oauth", "authentication", "identity"]
+}
