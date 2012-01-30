@@ -7,7 +7,7 @@
     "type": "git",
     "url": "git://github.com/zoowar/passport-statusnet.git"
   },
-  "main": "./lib/passport-identica",
+  "main": "./lib/passport-statusnet",
   "dependencies": {
     "passport-oauth": ">= 0.1.0"
   },
