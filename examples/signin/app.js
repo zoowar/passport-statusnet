@@ -1,7 +1,7 @@
 var express = require('express')
   , passport = require('passport')
   , util = require('util')
-  , StatusNetStrategy = require('../../lib/passport-statusnet').Strategy
+  , StatusNetStrategy = require('passport-statusnet').Strategy
   , fs = require("fs");
 
 var config = JSON.parse(fs.readFileSync("./config.json", "utf-8"));
@@ -111,7 +111,8 @@ app.get('/logout', function(req, res){
   res.redirect('/');
 });
 
-app.listen(3000);
+app.listen(3000, "127.0.0.1");
+console.log("open http://127.0.0.1:3000 in your browser");
 
 
 // Simple route middleware to ensure user is authenticated.
